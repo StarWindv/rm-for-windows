@@ -106,7 +106,9 @@ rm -rv old_project
 1. 克隆仓库：
 ```bash
 git clone https://github.com/starwindv/rm-for-windows
-cd rm-for-windows/rm-for-windows
+```
+```bash
+cd rm-for-windows/rm_for_windows
 ```
 
 2. 构建项目：

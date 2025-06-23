@@ -1,0 +1,10 @@
+[package]
+name = "rm"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+clap = "2.34"
+anyhow = "1.0"
+walkdir = "2.3"
+dialoguer = "0.10"

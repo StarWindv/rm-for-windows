@@ -84,7 +84,7 @@ fn delete_path(path: &Path, config: &Config) -> Result<()> {
         } else if config.dir {
             remove_dir_force(path, config)
         } else {
-            Err(anyhow!("cannot remove '{}': Is a directory", path.display()))
+            Err(anyhow!("cannot remove '{}': It's a directory", path.display()))
         }
     } else {
         Err(anyhow!("unsupported file type: {}", path.display()))
